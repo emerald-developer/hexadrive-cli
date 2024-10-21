@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { decrypt, encrypt } from "../src/auth/index.ts";
+import { decrypt, encrypt } from "../src/data/index.ts";
 import { randomBytes } from "crypto";
 
 describe("encryption", () => {
