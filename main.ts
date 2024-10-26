@@ -1,1 +1,1 @@
-console.log("hi");
+import "./src/cli/cli.ts"

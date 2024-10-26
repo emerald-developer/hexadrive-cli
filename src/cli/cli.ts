@@ -4,7 +4,7 @@ import process from "node:process";
 
 program
   .name("hexaDrive")
-  .version('0.1.0')
+  .version('0.1.8')
   .description('Firebase storage handler')
   initialize()
   program.parse(process.argv);
