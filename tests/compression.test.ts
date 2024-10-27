@@ -1,4 +1,4 @@
-import { compress, decompress } from "../src/data/index.ts";
+import { compress, decompress } from "../src/data/compression.ts";
 import { describe, expect, it } from "vitest";
 import { Buffer } from "node:buffer";
 

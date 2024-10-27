@@ -3,7 +3,7 @@ import {
   createDecipheriv,
   pbkdf2Sync,
   randomBytes,
-} from "crypto";
+} from "node:crypto";
 import { Buffer } from "node:buffer";
 
 const algorithm = "aes-256-cbc"; // AES encryption algorithm

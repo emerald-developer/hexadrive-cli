@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { decrypt, encrypt } from "../src/data/index.ts";
-import { randomBytes } from "crypto";
+import { decrypt, encrypt } from "../src/data/encryption.ts";
+import { randomBytes } from "node:crypto";
 
 describe("encryption", () => {
   it("should encrypt properly", () => {
